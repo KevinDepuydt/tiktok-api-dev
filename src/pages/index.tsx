@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <>
-      <div>Login button goes here</div>
+      <a href="/api/tiktok/oauth">Continue with TikTok</a>
     </>
   )
 }
