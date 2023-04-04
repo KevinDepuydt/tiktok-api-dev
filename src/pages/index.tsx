@@ -1,7 +1,9 @@
+import Link from 'next/link'
+
 export default function Home() {
   return (
     <>
-      <a href="/api/tiktok/oauth">Continue with TikTok</a>
+      <Link href="/api/tiktok/oauth">Continue with TikTok</Link>
     </>
   )
 }
